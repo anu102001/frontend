@@ -1,8 +1,6 @@
 var toggleButton = document.querySelector(".toggle-btn");
 var body = document.querySelector("body");
-var thumbanail = document.querySelectorAll("thumbnail");
-
-var clicked = false;
+var thumbnail = document.querySelectorAll("thumbnail");
 
 toggleButton.addEventListener("click",() => {
     body.classList.toggle('active');
