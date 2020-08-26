@@ -5,6 +5,6 @@ var thumbnail = document.querySelectorAll("thumbnail");
 toggleButton.addEventListener("click",() => {
     body.classList.toggle('active');
     for(var i=0; i<thumbnail.length; i++){
-        thumbnail[i].classList.toggle('active')
+        thumbnail[i].classList.toggle('active');
     }
 });
