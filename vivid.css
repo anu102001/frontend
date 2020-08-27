@@ -25,8 +25,8 @@ body {
 }
 .header p
 {
-    margin-block-start: 0em;
-    margin-block-end: 1.5em;
+  margin-block-start: 0em;
+  margin-block-end: 1.5em;
   font-size: 12px;
   color:  hsl(228, 34%, 66%);
 }
@@ -256,4 +256,17 @@ margin-top: 19px;
 .toggle-btn.active > .inner-circle {
   margin-left: 20px;
   background: hsl(225, 100%, 98%);
+}
+
+
+body.active {
+  background: hsl(0, 0%, 100%);
+  color: hsl(230, 17%, 14%);
+}
+
+.big-box.active > .box {
+  background: hsl(227, 47%, 96%);
+}
+.small-box.active > .grid-item {
+  background: hsl(227, 47%, 96%);
 }
