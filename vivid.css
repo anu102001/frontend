@@ -19,13 +19,20 @@ body {
 .header h1 {
     margin-block-end: 0em;
     font-size: 1.8em;
+    font-weight: 700 ;
 }
 
 .header p {
     margin-block-start: 0em;
     margin-block-end: 1.5em;
-    font-size: 12px;
+    margin-top: 10px;
+    font-size: 14px;
     color: hsl(228, 34%, 66%);
+}
+
+.middle {
+    font-size: 1.6em;
+    font-weight: 700;
 }
 
 .big-box {
@@ -40,6 +47,7 @@ body {
 
 .box {
     background-color: hsl(228, 28%, 20%);
+    margin-top: 20px;
     margin-right: 13px;
     text-align: center;
     border-radius: 5px;
@@ -74,6 +82,7 @@ body {
     padding-right: 25px;
     padding-top: 25px;
     background-color: hsl(228, 28%, 20%);
+    margin-top: 20px;
     margin-right: 13px;
     margin-bottom: 10px;
     border-radius: 5px;
@@ -114,12 +123,13 @@ body {
     font-size: 2.2em;
     margin-block-start: 0.3em;
     margin-block-end: 0.1em;
+    font-weight: 400;
 }
 
 .follow p {
     margin-block-start: 0.1em;
     margin-block-end: 0.1em;
-    font-size: 10px;
+    font-size: 12px;
     color: hsl(228, 34%, 66%);
 }
 
@@ -212,7 +222,9 @@ body {
     color: hsl(356, 69%, 56%);
     margin-top: 19px;
 }
-
+.up-2 > h1{
+    font-weight: 400;
+}
 .toggle-btn {
     margin-left: auto;
     width: 40px;
@@ -234,9 +246,7 @@ body {
 /* ========================================= */
 /* LIGHT MODE */
 /* ========================================= */
-/* .toggle-btn.active {
-  background: hsl(230, 22%, 74%);
-} */
+
 .toggle-btn.active>.inner-circle {
     margin-left: 20px;
     background: hsl(225, 100%, 98%);
